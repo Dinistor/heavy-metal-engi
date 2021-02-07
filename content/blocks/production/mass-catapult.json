@@ -1,0 +1,24 @@
+{
+"type": "massDriver",
+"name" : "Электромагнитный требушет Станковского",
+"description": "Огромная электромагнитная катапульта для переноса гигантских объёмов материи",
+"hasPower": true,
+"size" : 4,
+"consumes": {
+	"power": 3
+	}, 
+"itemCapacity" : 250,
+"reloadTime" : 280,
+"buildTime": 1000,
+"range": 750,
+"requirements":  [
+{ "item": "silicon", "amount": 400 },
+{ "item": "graphite", "amount": 250 },
+{ "item": "lead", "amount": 750 },
+{ "item": "copper", "amount": 450 },
+{ "item": "plastanium", "amount": 100 }
+{ "item": "thorium", "amount": 230 },
+],
+"category": "distribution",
+"research": "mass-driver"
+}

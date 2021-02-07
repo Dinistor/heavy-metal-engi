@@ -1,0 +1,26 @@
+type: BurnerGenerator
+name: Паровой турбогенератор
+description: Прототип дифференциального генератора, потребляющий те же ресурсы, что и паровой генератор. По эффективности сопоставим с ним же.
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 10
+hasLiquids: true
+liquidCapacity: 20
+itemDuration: 180
+powerProduction: 13.35
+consumes: {
+  liquid: water/0.25
+  items: {
+	items: [coal/6]
+  }
+}
+requirements: [
+  copper/80
+  graphite/75
+  silicon/70
+  lead/150
+  metaglass/50
+]
+category: power
+research: steam-generator

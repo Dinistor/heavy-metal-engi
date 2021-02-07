@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "Тяжёлый пресс",
+	"description": "Работает медленнее, чем графитовый пресс, но с большими объёмами угля, за счёт большей массы пресса.",
+	"details": "Портированный из [white]Lead Industri[pink]es[lightgray], с чутка заниженными характеристиками",
+	"health" : 300,
+	"size": 2,
+	"hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 300,
+	"itemCapacity": 20,
+	"buildCostMultiplier" : 0.6,
+	"updateEffect": "smeltsmoke",	
+	"outputItem": {"item": "graphite", "amount": 5},
+	"consumes": {
+		
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 8},
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 150 },
+		{ "item": "lead", "amount": 300 },
+	],
+	"category": "crafting",
+	"research": "graphite-press"
+}
+
