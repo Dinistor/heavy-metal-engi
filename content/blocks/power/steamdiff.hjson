@@ -7,13 +7,10 @@ hasItems: true
 itemCapacity: 10
 hasLiquids: true
 liquidCapacity: 20
-itemDuration: 180
+itemDuration: 30
 powerProduction: 13.35
 consumes: {
   liquid: water/0.25
-  items: {
-	items: [coal/6]
-  }
 }
 requirements: [
   copper/80
